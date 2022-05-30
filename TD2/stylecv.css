@@ -35,8 +35,20 @@ nav > a { /*On cible le a pour séparer les titres*/
 #Presentation {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     margin: 5px;
     line-break: auto;
     text-align: center;
+}
+
+.main-bloc {
+    margin-left: 55px;
+
+}
+
+
+.main-bloc > h3 {
+    text-decoration: underline;
+
+
 }

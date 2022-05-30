@@ -44,13 +44,14 @@ nav > a { /*On cible le a pour séparer les titres*/
 .Contact-form {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column ;
+    /*flex-direction: column ; A reverifier .... il faudra décaler le texte à gaucehe*/
     justify-content: center;
 
 }
  
 .Contact-form  > h1{ 
     text-decoration: underline;
+    justify-content: center;
 }
 
 
