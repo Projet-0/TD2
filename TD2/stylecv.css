@@ -31,42 +31,12 @@ nav > a { /*On cible le a pour séparer les titres*/
     text-align: center;
 }
 
+
 #Presentation {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     margin: 5px;
     line-break: auto;
-    text-align: center;
-}
-
-
-.Contact-form {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column ;
-    justify-content: center;
-
-}
- 
-.Contact-form  > h1{ 
-    text-decoration: underline;
-}
-
-
-form {
-    justify-content: center;
-}
-
-
-.contact-element {
-    margin: 5px;
-
-}
-
-#Footer {
-    margin-top: 50px;
-    border-top: #000 1px solid;
-    border-bottom: #000 1px solid;
     text-align: center;
 }
