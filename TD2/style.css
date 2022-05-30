@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";/* CSS Do cument */
+html{
+	color:#000;
+	background:#FFF;
+}
+
+/* #TopBar{ 
+    border: solid;
+    border-radius: 2px; 
+} */
+
+
+#TopBar > h1 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: #000 1px 0 10px; /*on met de l'ombre*/
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: #000 1px solid;
+    border-bottom: #000 1px solid;
+
+
+}
+nav > a { /*On cible le a pour séparer les titres*/
+    margin: 5px;
+    text-align: center;
+}
+
+#Presentation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 5px;
+    line-break: auto;
+    text-align: center;
+}
