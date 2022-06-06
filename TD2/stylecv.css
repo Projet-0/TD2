@@ -4,51 +4,101 @@ html{
 	background:#FFF;
 }
 
-/* #TopBar{ 
-    border: solid;
-    border-radius: 2px; 
-} */
+ /* #TopBar{
+    height: max-content; 
+    background-color: grey;
+}  */
 
 
 #TopBar > h1 {
     color: black;
     font-size: 50px;
     text-align: center;
-    text-shadow: #000 1px 0 10px; /*on met de l'ombre*/
+    /*text-shadow: #000 1px 0 10px; on met de l'ombre*/
 }
 
 nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border-top: #000 1px solid;
-    border-bottom: #000 1px solid;
+    border-top: #000 3px solid; /* Elle est un peu plus épaisse que les bordures en dessous*/
+    border-bottom: #000 3px solid;
 
 
 }
 nav > a { /*On cible le a pour séparer les titres*/
-    margin: 5px;
+    margin: 15px;
     text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+nav > a > :hover { /*Lorsqu'on survole la page */
+    color: black;
+
 }
 
 
 #Presentation {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    text-align: center; 
     margin: 5px;
     line-break: auto;
-    text-align: center;
+    word-wrap: break-word;
+    justify-content: space-between;
+    /* flex-wrap: wrap;
+    flex-direction: row;*/
+
 }
+
+.presentation-bloc {
+    margin: 15px;
+    height: auto;
+}
+
+
+#Civil-State > p {
+    overflow-y: auto;
+    scrollbar-width: thin;
+    height: 180px;
+
+}
+
+#Picture > img {
+    border: #000 1px solid;
+    width: 256px;
+    height: 180px;
+
+}
+
 
 .main-bloc {
+    margin-top: 15px;   
     margin-left: 55px;
-
 }
 
 
-.main-bloc > h3 {
-    text-decoration: underline;
+
+.main-bloc > ul {
+    border-top: #000 1px solid;
+    padding-top: 5px;
+    font-size: 15px;
 
 
+}
+
+#Footer {
+    margin-top: 50px;
+    padding-top: 10px;
+    border-top: #000 1px solid;
+    /* border-bottom: #000 1px solid; A priori pas nécéssaire selon l'énoncé */
+    text-align: center;
+    display: flex;
+}
+
+#Footer > a {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color:#000;
 }

@@ -4,31 +4,31 @@ html{
 	background:#FFF;
 }
 
-/* #TopBar{ 
+ /*#TopBar { 
     border: solid;
-    border-radius: 2px; 
-} */
-
+    border-radius: 2px;  
+    background-color:  #242526; 
+    color: #61dafb;
+} */ 
 
 #TopBar > h1 {
-    color: black;
     font-size: 50px;
     text-align: center;
-    text-shadow: #000 1px 0 10px; /*on met de l'ombre*/
+    /*text-shadow: #000 1px 0 10px; on met de l'ombre*/
 }
 
 nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border-top: #000 1px solid;
-    border-bottom: #000 1px solid;
-
-
+    border-top: #000 3px solid; /* Elle est un peu plus épaisse que les bordures en dessous*/
+    border-bottom: #000 3px solid;
 }
 nav > a { /*On cible le a pour séparer les titres*/
-    margin: 5px;
+    margin: 15px;
     text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
 #Presentation {
@@ -67,7 +67,16 @@ form {
 
 #Footer {
     margin-top: 50px;
+    padding-top: 10px;
     border-top: #000 1px solid;
-    border-bottom: #000 1px solid;
+    /* border-bottom: #000 1px solid; A priori pas nécéssaire selon l'énoncé */
     text-align: center;
+    display: flex;
+}
+
+#Footer > a {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color:#000;
 }
