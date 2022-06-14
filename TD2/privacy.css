@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";/* CSS Do cument */
+html{
+	color:#000;
+	background:#FFF;
+}
+
+
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
