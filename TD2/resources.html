@@ -1,0 +1,109 @@
+<!DOCTYPE html>  
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <title>CV Ayoub BOUASRIA</title>
+        <link rel="stylesheet" href="./styleresources.css" />
+
+    </head>
+
+<!-- 
+    Reste à faire : L'affichage d'une vidéo locale, vidéo distantVideo: You will insert two videos :
+    ◦ A local video (not a link, the full player must be displayed), using the html5 tag <video>.
+    Be careful : it must be small enough to fit in Mootse’s hosting system.
+    ◦ A distant video.
+    • Code sample: an indented and formatted sample of code (C, C++, Java… as you want!),
+    using the pre tag  Finir également le CSS et faire le Aller plus loin-->
+    
+
+    <body>
+        <div id="TopBar">
+            <h1>Projet Professionnel</h1>
+
+
+        </div>
+        <nav>
+            <a href="index.html"><h1>Home</h1></a>
+            <a href="cv.html"><h1>CV</h1></a>
+            <a href="resources.html"><h1>Resources</h1></a>
+        </nav>
+
+        <div class="main-bloc">
+            <h3>Downloads</h3>
+            <ul>
+                <li><a href="./download/CV-Ayoub-BOUASRIA.pdf" target="_blank" download="/download/CV-Ayoub-BOUASRIA.pdf">My Cv (pdf)</a></li>
+                <li><a href="./download/CV-Ayoub-BOUASRIA.rar" target="_blank" download="/download/CV-Ayoub-BOUASRIA.rar">A Zip file</a></li>
+                <li><a href="./download/picture-cv.jpg" target="_blank" download="/download/picture-cv.jpg">My CV picture</a></li>
+            </ul>
+        </div>
+
+        <div id="video-title">
+            <h3>Video</h3>
+        </div>
+        
+        <div class="video">
+            <div class="video-bloc">
+                <div class="video-item">
+                    <h1>Local Video</h1>
+                    <video controls  width="320" height="240">
+                        <source src="./download/me-at-the-zoo.mp4" type="video/mp4">
+                            <!-- <source src="maVideo.webm" type="video/webm"> -->
+                        <p>Your brower doesn't support mp4 video.
+                        Here a link <a href="./download/me-at-the-zoo.mp4">To download the video</a>.</p>
+                    </video>
+                </div>
+
+                <div class="video-item">
+                    <h1>Distant Video</h1>
+                    <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="code">
+            <h3>Code Sample</h3>
+            <div class="code-bloc">
+                
+                <pre>
+                    if (i + 1 = 2) {																	
+                        if (card.getValue()[1] == getCard(i + 1, j)->getValue()[3] && board_[i + 1][j].getColor() != -1) {
+                            counter += 1;
+                            Counterlist.push_back(getCard(i + 1, j));
+                            icoord.push_back(i + 1);
+                            jcoord.push_back(j);
+                            if (color != getCard(i + 1, j)->getColor()) {
+                                counterColor += 1;
+                            }
+                        }
+                    }
+                </pre>
+            </div>
+        </div>
+
+        <!-- Footer Page -->
+        <div id="Footer"> 
+            <a href="privacy.html" target="_blank">
+                <p>Privacy Notice</p>
+            </a> 
+
+            <a href="term&condition.html" target="_blank">
+                <p>Terms & conditions</p>
+            </a> 
+
+            <a href="cookie.html" target="_blank">
+                <p>Cookies policy</p>
+            </a>
+        </div>
+
+
+    </body>
+
+
+
+
+
+
+
+
+</html>

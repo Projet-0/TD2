@@ -31,6 +31,12 @@ nav > a { /*On cible le a pour séparer les titres*/
     color: black;
 }
 
+nav > a:hover {
+    transition: all .5s ease-in-out;
+    transform: scale(1.1);
+}
+
+
 #Presentation {
     display: flex;
     flex-wrap: wrap;

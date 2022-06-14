@@ -33,9 +33,9 @@ nav > a { /*On cible le a pour séparer les titres*/
     color: black;
 }
 
-nav > a > :hover { /*Lorsqu'on survole la page */
-    color: black;
-
+nav > a:hover {
+    transition: all .5s ease-in-out;
+    transform: scale(1.1);
 }
 
 
